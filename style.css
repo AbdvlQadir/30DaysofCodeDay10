@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    background: url(Q.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: midnightblue;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: serif;
+    font-size: 14px;
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.welcome-text a{
+    border: 1px solid red;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 50px;
+    display: inline-block;
+    color: midnightblue;
+}
+
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+
+}
+
+
+/* About Section */
+#about{
+    padding: 5rem 0;
+    background: url(R.jpg);
+}
+
+#about h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+#about h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p.lead{
+    margin-bottom: 1rem;
+}
+
+#about .about-content{
+    display: flex;
+}
+
+#about .about-text,
+#about .about-image{
+    flex: 1;
+}
+
+#about .about-text{
+    text-align: center;
+}
+
+#about .about-image img{
+    display: block;
+    margin-right: 50px;
+    width: 75%;
+    border-radius: 40%;
+    margin-top: 50px;
+}
+
+
+.work-samples li a {
+    color: red;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: serif;
+    font-size: 25px;
+}
+
+.work-samples li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+footer{
+    background-color: rgb(174, 219, 11);
+}
+
+
+.facebook, .twitter {
+    padding: 0px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    opacity: 0.7;
+}
+
+.twitter:hover{
+    opacity: 0.7;
+}
+
+.facebook, .twitter{
+    color: white;
+}
